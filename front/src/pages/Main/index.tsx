@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from "axios";
-// import "./style";
 import {Container, Loader, Movies} from "./style";
-import Movie from '/Users/jeongtaeung/Desktop/study-react-app/my-app/src/pages/Movie/index';
+import Movie from '../Movie/index';
 
 const Index = () => {
   const [isLoading, setIsLoading] = useState(true);

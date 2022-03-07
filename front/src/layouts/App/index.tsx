@@ -2,9 +2,9 @@ import React from 'react';
 import loadable from '@loadable/component';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-const LogIn = loadable(() => import('/Users/jeongtaeung/Desktop/study-react-app/my-app/src/pages/Login'));
-const Join = loadable(() => import('/Users/jeongtaeung/Desktop/study-react-app/my-app/src/pages/Join'));
-const Main = loadable(() => import('/Users/jeongtaeung/Desktop/study-react-app/my-app/src/pages/Main'));
+const LogIn = loadable(() => import('../../pages/Login'));
+const Join = loadable(() => import('../../pages/Join'));
+const Main = loadable(() => import('../../pages/Main'));
 
 const App = () => {
     return (
