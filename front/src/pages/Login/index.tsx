@@ -21,7 +21,7 @@ const Login = () => {
                 <Box>
                     <h1>Login Form</h1>
                     <UserIdPw name="username" type="text" placeholder="User Name"/>
-                    <UserIdPw name="username" type="password" placeholder="Password"/>
+                    <UserIdPw name="password" type="password" placeholder="Password"/>
                     <a href="/main">
                         <Button type="submit">Sign In</Button>
                     </a>
